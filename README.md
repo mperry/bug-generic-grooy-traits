@@ -9,5 +9,6 @@ When some tests are performed, the monad class based on the class worked fine, b
 
 This was compiled and run with Gradle 1.12.
 
+Raised https://jira.codehaus.org/browse/GROOVY-6899 to track this issue.
 
 
