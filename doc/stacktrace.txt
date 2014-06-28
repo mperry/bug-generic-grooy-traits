@@ -1,0 +1,176 @@
+
+D:\repositories\bug-generic-groovy-traits>gradle -i clean build
+Starting Build
+Settings evaluated using settings file 'D:\repositories\bug-generic-groovy-traits\settings.gradle'.
+Projects loaded. Root project using build file 'D:\repositories\bug-generic-groovy-traits\build.gradle'.
+Included projects: [root project 'bug-groovy-typeclass-2']
+Evaluating root project 'bug-groovy-typeclass-2' using build file 'D:\repositories\bug-generic-groovy-traits\build.gradl
+e'.
+All projects evaluated.
+Selected primary tasks 'clean', 'build'
+Tasks to be executed: [task ':clean', task ':compileJava', task ':compileGroovy', task ':processResources', task ':class
+es', task ':jar', task ':assemble', task ':compileTestJava', task ':compileTestGroovy', task ':processTestResources', ta
+sk ':testClasses', task ':test', task ':check', task ':build']
+:clean (Thread[main,5,main]) started.
+:clean
+Executing task ':clean' (up-to-date check took 0.001 secs) due to:
+  Task has not declared any outputs.
+:clean (Thread[main,5,main]) completed. Took 0.064 secs.
+:compileJava (Thread[main,5,main]) started.
+:compileJava
+Skipping task ':compileJava' as it has no source files.
+:compileJava UP-TO-DATE
+:compileJava (Thread[main,5,main]) completed. Took 0.031 secs.
+:compileGroovy (Thread[main,5,main]) started.
+:compileGroovy
+Executing task ':compileGroovy' (up-to-date check took 1.79 secs) due to:
+  Output file D:\repositories\bug-generic-groovy-traits\build\classes\main has changed.
+  Output file D:\repositories\bug-generic-groovy-traits\build\classes\main\com\github\mperry\fg\typeclass\IdentityMonadF
+romClass.class has been removed.
+  Output file D:\repositories\bug-generic-groovy-traits\build\classes\main\com\github\mperry\fg\typeclass\IdentityMonadF
+romTrait.class has been removed.
+Starting process 'Gradle Compiler Daemon 1'. Working directory: D:\repositories\bug-generic-groovy-traits Command: C:\Pr
+ogram Files\Java\jdk1.7.0_45\bin\java.exe -Dfile.encoding=windows-1252 -cp D:\gradle-1.12\lib\gradle-base-services-1.12.
+jar;D:\gradle-1.12\lib\gradle-core-1.12.jar;D:\gradle-1.12\lib\gradle-cli-1.12.jar;D:\gradle-1.12\lib\gradle-native-1.12
+.jar;D:\gradle-1.12\lib\gradle-messaging-1.12.jar;D:\gradle-1.12\lib\slf4j-api-1.7.5.jar;D:\gradle-1.12\lib\logback-clas
+sic-1.0.13.jar;D:\gradle-1.12\lib\logback-core-1.0.13.jar;D:\gradle-1.12\lib\jul-to-slf4j-1.7.5.jar;D:\gradle-1.12\lib\g
+uava-jdk5-14.0.1.jar org.gradle.process.internal.launcher.GradleWorkerMain
+Successfully started process 'Gradle Compiler Daemon 1'
+Started Gradle compiler daemon (1.771 secs) with fork options DaemonForkOptions{minHeapSize=null, maxHeapSize=null, jvmA
+rgs=[], classpath=[C:\Users\MarkPerry\.gradle\caches\modules-2\files-2.1\org.codehaus.groovy\groovy\2.3.3\3dc7bb4e212921
+ab2305b206cc3909aa532b7da6\groovy-2.3.3.jar, C:\Users\MarkPerry\.gradle\caches\modules-2\files-2.1\org.codehaus.groovy\g
+roovy-ant\2.3.3\713682b5eaa0156967646fda6e124409958ddef8\groovy-ant-2.3.3.jar, C:\Users\MarkPerry\.gradle\caches\modules
+-2\files-2.1\org.apache.ant\ant-antlr\1.9.3\416003ec88f07be32dc4433a6e27da6c8f38d166\ant-antlr-1.9.3.jar, C:\Users\MarkP
+erry\.gradle\caches\modules-2\files-2.1\org.apache.ant\ant\1.9.3\311ac248030ff4f9f27e55561fadf3e99c646abb\ant-1.9.3.jar,
+ C:\Users\MarkPerry\.gradle\caches\modules-2\files-2.1\org.codehaus.groovy\groovy-groovydoc\2.3.3\9218cf5a541094d14f2801
+803677fa2920e95c96\groovy-groovydoc-2.3.3.jar, C:\Users\MarkPerry\.gradle\caches\modules-2\files-2.1\org.apache.ant\ant-
+launcher\1.9.3\a98ddc70a74c9cc6cad6520f857db59af8227e07\ant-launcher-1.9.3.jar, C:\Users\MarkPerry\.gradle\caches\module
+s-2\files-2.1\org.apache.ant\ant-junit\1.9.3\d1cafa6f9f174a6ca335b257e3b15c485d2c054a\ant-junit-1.9.3.jar, C:\Users\Mark
+Perry\.gradle\caches\modules-2\files-2.1\org.codehaus.groovy\groovy-templates\2.3.3\b5ef6c9cec39a5d4708864dc34760be4a089
+135e\groovy-templates-2.3.3.jar, C:\Users\MarkPerry\.gradle\caches\modules-2\files-2.1\org.codehaus.groovy\groovy-xml\2.
+3.3\2359fa427fe3e5c838d15a23ffa864da8ea0697\groovy-xml-2.3.3.jar, D:\gradle-1.12\lib\ant-1.9.3.jar, D:\gradle-1.12\lib\a
+nt-launcher-1.9.3.jar]}.
+Executing org.gradle.api.internal.tasks.compile.ApiGroovyCompiler@4ece3b01 in compiler daemon.
+Successfully executed org.gradle.api.internal.tasks.compile.ApiGroovyCompiler@4ece3b01 in compiler daemon.
+:compileGroovy (Thread[main,5,main]) completed. Took 6.499 secs.
+:processResources (Thread[main,5,main]) started.
+:processResources
+Skipping task ':processResources' as it has no source files.
+:processResources UP-TO-DATE
+:processResources (Thread[main,5,main]) completed. Took 0.02 secs.
+:classes (Thread[main,5,main]) started.
+:classes
+Skipping task ':classes' as it has no actions.
+:classes (Thread[main,5,main]) completed. Took 0.01 secs.
+:jar (Thread[main,5,main]) started.
+:jar
+Executing task ':jar' (up-to-date check took 0.198 secs) due to:
+  Output file D:\repositories\bug-generic-groovy-traits\build\libs\bug-groovy-typeclass-2.jar has changed.
+  Output file D:\repositories\bug-generic-groovy-traits\build\libs\bug-groovy-typeclass-2.jar has been removed.
+:jar (Thread[main,5,main]) completed. Took 0.455 secs.
+:assemble (Thread[main,5,main]) started.
+:assemble
+Skipping task ':assemble' as it has no actions.
+:assemble (Thread[main,5,main]) completed. Took 0.021 secs.
+:compileTestJava (Thread[main,5,main]) started.
+:compileTestJava
+Skipping task ':compileTestJava' as it has no source files.
+:compileTestJava UP-TO-DATE
+:compileTestJava (Thread[main,5,main]) completed. Took 0.036 secs.
+:compileTestGroovy (Thread[main,5,main]) started.
+:compileTestGroovy
+Executing task ':compileTestGroovy' (up-to-date check took 0.17 secs) due to:
+  Output file D:\repositories\bug-generic-groovy-traits\build\classes\test has changed.
+  Output file D:\repositories\bug-generic-groovy-traits\build\classes\test\com\github\mperry\fg\typeclass\concrete\Ident
+ityTest$_testMonadTrait_closure4.class has been removed.
+  Output file D:\repositories\bug-generic-groovy-traits\build\classes\test\com\github\mperry\fg\typeclass\concrete\Ident
+ityTest$_testMonadClass_closure3.class has been removed.
+Executing org.gradle.api.internal.tasks.compile.ApiGroovyCompiler@59034977 in compiler daemon.
+Successfully executed org.gradle.api.internal.tasks.compile.ApiGroovyCompiler@59034977 in compiler daemon.
+:compileTestGroovy (Thread[main,5,main]) completed. Took 0.93 secs.
+:processTestResources (Thread[main,5,main]) started.
+:processTestResources
+Skipping task ':processTestResources' as it has no source files.
+:processTestResources UP-TO-DATE
+:processTestResources (Thread[main,5,main]) completed. Took 0.029 secs.
+:testClasses (Thread[main,5,main]) started.
+:testClasses
+Skipping task ':testClasses' as it has no actions.
+:testClasses (Thread[main,5,main]) completed. Took 0.015 secs.
+:test (Thread[main,5,main]) started.
+:test
+Executing task ':test' (up-to-date check took 0.083 secs) due to:
+  No history is available.
+Starting process 'Gradle Test Executor 2'. Working directory: D:\repositories\bug-generic-groovy-traits Command: C:\Prog
+ram Files\Java\jdk1.7.0_45\bin\java.exe -Djava.security.manager=jarjar.org.gradle.process.internal.child.BootstrapSecuri
+tyManager -Dfile.encoding=windows-1252 -ea -cp C:\Users\MarkPerry\.gradle\caches\1.12\workerMain\gradle-worker.jar jarja
+r.org.gradle.process.internal.launcher.GradleWorkerMain
+Successfully started process 'Gradle Test Executor 2'
+Gradle Test Executor 2 started executing tests.
+Gradle Test Executor 2 finished executing tests.
+
+com.github.mperry.fg.typeclass.concrete.IdentityTest > testMonadTrait FAILED
+    java.lang.ExceptionInInitializerError
+        at java.lang.Class.forName0(Native Method)
+        at java.lang.Class.forName(Class.java:270)
+        at org.codehaus.groovy.runtime.callsite.CallSiteArray$1.run(CallSiteArray.java:65)
+        at org.codehaus.groovy.runtime.callsite.CallSiteArray$1.run(CallSiteArray.java:62)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallStaticSite(CallSiteArray.java:62)
+        at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:159)
+        at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+        at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+        at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112)
+        at com.github.mperry.fg.typeclass.concrete.IdentityTest.testMonadTrait(IdentityTest.groovy:35)
+
+        Caused by:
+        java.lang.NullPointerException
+            at com.sun.beans.TypeResolver.resolve(TypeResolver.java:203)
+            at com.sun.beans.TypeResolver.resolve(TypeResolver.java:218)
+            at com.sun.beans.TypeResolver.resolveInClass(TypeResolver.java:96)
+            at java.beans.FeatureDescriptor.getParameterTypes(FeatureDescriptor.java:387)
+            at java.beans.MethodDescriptor.setMethod(MethodDescriptor.java:114)
+            at java.beans.MethodDescriptor.<init>(MethodDescriptor.java:72)
+            at java.beans.MethodDescriptor.<init>(MethodDescriptor.java:56)
+            at java.beans.Introspector.getTargetMethodInfo(Introspector.java:1149)
+            at java.beans.Introspector.getBeanInfo(Introspector.java:416)
+            at java.beans.Introspector.getBeanInfo(Introspector.java:163)
+            at groovy.lang.MetaClassImpl$15.run(MetaClassImpl.java:3065)
+            at java.security.AccessController.doPrivileged(Native Method)
+            at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3063)
+            at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3046)
+            at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:210)
+            at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:241)
+            at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:255)
+            at org.codehaus.groovy.runtime.InvokerHelper.getMetaClass(InvokerHelper.java:859)
+            at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallStaticSite(CallSiteArray.java:72)
+            at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:159)
+            at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+            at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+            at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+            at com.github.mperry.fg.typeclass.IdentityMonadFromTrait.<clinit>(IdentityMonadFromTrait.groovy)
+            ... 11 more
+
+3 tests completed, 1 failed
+Finished generating test XML results (0.191 secs) into: D:\repositories\bug-generic-groovy-traits\build\test-results
+Generating HTML test report...
+Finished generating test html results (0.124 secs) into: D:\repositories\bug-generic-groovy-traits\build\reports\tests
+:test FAILED
+:test (Thread[main,5,main]) completed. Took 3.956 secs.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///D:/repositories/bug-generic-groovy-traits/build/reports/tests/ind
+ex.html
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 24.369 secs
+Stopped 1 compiler daemon(s).
+
+D:\repositories\bug-generic-groovy-traits>
