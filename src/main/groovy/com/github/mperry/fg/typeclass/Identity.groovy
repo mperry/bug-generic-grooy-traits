@@ -1,4 +1,4 @@
-package com.github.mperry.fg.typeclass.concrete
+package com.github.mperry.fg.typeclass
 
 import fj.F
 import groovy.transform.Canonical

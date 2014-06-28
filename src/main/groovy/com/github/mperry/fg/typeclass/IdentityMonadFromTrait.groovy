@@ -1,18 +1,16 @@
-package com.github.mperry.fg.typeclass.concrete
+package com.github.mperry.fg.typeclass
 
 import fj.F
-
-import com.github.mperry.fg.typeclass.*
 import groovy.transform.TypeChecked
 
 /**
  * Created by MarkPerry on 28/06/2014.
  */
-//@TypeChecked
-class IdentityMonad<A> implements Monad<Identity<A>> {
+@TypeChecked
+class IdentityMonadFromTrait<A> implements MonadTrait<Identity<A>> {
 
-	static <A> IdentityMonad<A> monad() {
-		new IdentityMonad<A>()
+	static <A> IdentityMonadFromClass<A> monad() {
+		new IdentityMonadFromClass<A>()
 	}
 
 	def <A> Identity<A> unit(A a) {
